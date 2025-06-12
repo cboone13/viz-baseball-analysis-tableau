@@ -1,52 +1,97 @@
-# Udacity_tableau_baseball_analysis
-Udacity data analyist nandegree - data visualization project that demonstrates how to use tableau to analyze a data set and tell a stroy from that data. 
+# 🏟️ Swing Stats: Visualizing Baseball Performance by Handedness (Tableau)
 
-### Tableau Initial Story Link: https://public.tableau.com/profile/chris.boone#!/vizhome/UdacityCreateaTableauStory-BaseballDataSetv1/Story1
+**Project Type:** Data Visualization / Exploratory Storytelling  
+**Tools:** Tableau  
+**Dataset:** Baseball Player Stats (1,157 players categorized by batting handedness)
 
-### Tableau Final Story Link: https://public.tableau.com/profile/chris.boone#!/vizhome/UdacityCreateaTableauStory-BaseballDataSetv2/BaseballPlayerPerformanceBasedOnHandedness
+---
 
-## Summary
+## 📌 Project Overview
 
-Using the baseball data set which contains 1,157 players (737 right handed, 316 left handed, and 104 both handed) I am going to create a story that shows my exploration of the data to determine if left, right, or both handed hitters have a higher average performance.
+This project uses **Tableau** to explore how a baseball player's **batting handedness** — left, right, or both — may affect their performance. Through interactive visual storytelling, we analyze variables such as home runs, batting averages, height, and weight to uncover trends and patterns in performance.
 
-## Design
+The visualizations help address a central question:  
+➡️ *Do left-handed, right-handed, or ambidextrous hitters show higher average performance metrics?*
 
-On all visualizations I linked each one so that it would filter the highlighted group on each page for each viz when a group is selected.
+---
 
-1) I chose to use a donut chart to show percentage of each handedness out of the total. It gives a visually appealing way to show how much of the total number of players exist of each handedness.
+## 🎞️ Tableau Dashboards
 
-2) I also used a bar chart for this so that it made it more clear the differences between the groups.
+- 🔗 **Initial Story:**  
+  [Tableau Public - v1](https://public.tableau.com/profile/chris.boone#!/vizhome/UdacityCreateaTableauStory-BaseballDataSetv1/Story1)
 
-3) For height and weight, I used a scatter plot with an average line. I used this to give a solid visual representation of the correlation between height and weight of players as well as the distribution.
+- 🔗 **Final Story:**  
+  [Tableau Public - v2 (Final)](https://public.tableau.com/profile/chris.boone#!/vizhome/UdacityCreateaTableauStory-BaseballDataSetv2/BaseballPlayerPerformanceBasedOnHandedness)
 
-4) I created a scatter plot showing each players HR to Avg correlation. I included the average lines for both that shift based on which group is selected. This helps to show the central average as well as the independent averages of HR and Avg of the groups of players.
+---
 
-5) I used a bar chart with marks to show the average batting average for each group based on the player height. This allows us to see if height has an impact on batting average. It also shows us there is there is a downward trend. As players get taller, their batting average goes down.
+## 🛠️ Design Summary
 
-6) I included a cross-chart underneath the avg batting average vs player height by handedness as I though it may be confusing for the reader when not filtering by group to compare the marks (avg batting avg) for each height.
+This project uses a mix of bar charts, donut charts, scatter plots, and story points to tell a cohesive and interactive story. Each visualization allows dynamic filtering based on handedness selection:
 
-7) Conclusions: I broke each batting group out and put, what I believe gave the best visual representation of the averages, side by side. I fixed the axis so the graph lines were matched up and therefore comparable.
+1. **Donut Chart**  
+   Shows proportion of players by handedness.
 
-## Feedback
+2. **Bar Chart Comparison**  
+   Compares group sizes across batting categories.
 
-**1) Storyline font is smallish, perhaps even bolding would make it stand out more.**
+3. **Height vs. Weight Scatter Plot**  
+   Visualizes body metrics and correlation with average lines for reference.
 
-    Action: Increased font size and boldness.
+4. **Home Runs vs. Batting Average**  
+   Highlights correlation within handedness groups with dynamic average lines.
 
-**2) Storyline box size hides some info - could make  graphs smaller and storyline box larger (is that even possible)**
+5. **Batting Average by Player Height**  
+   Identifies possible trends between height and batting effectiveness.
 
-    Action: Increased height of story points.
+6. **Cross-Chart Comparison**  
+   Compares group performance across height for deeper insights.
 
-**3) Handedness legend: did you set it up so that the majority color is brighter - note the blue and gold are barely visible. Perhaps that was on purpose**
+7. **Conclusion Slides**  
+   Breaks out each group for side-by-side comparison, with aligned axes for fair evaluation.
 
-    Action: This was due to the chart starting with a group already selected so it was filtering. I
-    deselected so that no group was selected when first viewing the chart for batting
-    average vs home runs.
+---
 
-**4) Verify your conclusion to me it looks like left then right and then both handers**
+## 🧠 Key Insight
 
-    Action: Corrected the wording to accurately reflect the visualizations.
+🔍 **Initial Findings:**  
+Left-handed hitters showed marginally better average performance compared to right- and both-handed hitters.
 
-## Resources:
+---
 
-https://github.com/gaurav214/Udacity_Tableau_Project
+## 📝 Feedback & Iteration
+
+### 🔁 Feedback Implemented:
+
+1. **Small storyline font**  
+   → Increased font size and added bold styling.
+
+2. **Story box size hiding content**  
+   → Adjusted graph heights and increased point spacing.
+
+3. **Low-contrast color legend**  
+   → Resolved filtering state to display all groups by default.
+
+4. **Misaligned conclusions**  
+   → Verified and corrected conclusion statements to match visual evidence.
+
+---
+
+## 📎 Acknowledgments
+
+This project was completed as part of the **Udacity Data Analyst Nanodegree**.  
+Special thanks to peer reviewers for constructive design feedback.
+
+---
+
+## ⚖️ License
+
+This repository is provided under the **[MIT License](LICENSE)**.  
+Free to use, modify, and share for educational and non-commercial purposes.
+
+---
+
+## 📚 Resources
+
+- [Gaurav214 / Udacity Tableau Project](https://github.com/gaurav214/Udacity_Tableau_Project)
+- [Tableau Public Documentation](https://help.tableau.com/current/guides/everyone/en-us/everyone_get_started.htm)
